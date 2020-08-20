@@ -60,23 +60,31 @@ const questions = [
 
     {
     type: "input",
-    message: "Please include any questions: ",
-    name: "questions",
-    default: "none"
+    message: "What is your GitHub username?: ",
+    name: "questions1"
+    },
+
+    {
+    type: "input",
+    message: "What is your email address?: ",
+    name: "questions2"
     }
+
+    
 ];
 
 
 
 
-// function to write README file
-// // function writeToFile(fileName, data) {
-// }
-// fs.writeFile("READMe.md")
+
+
+
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const data = generateMarkdown(answers)
+
+        // function to write README file
         fs.writeFile("README.md", data, err => console.log(err))
     })
     .catch(error => {

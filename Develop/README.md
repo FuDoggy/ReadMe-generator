@@ -1,34 +1,53 @@
-# Title of Application
-  My Awesome App
+# My Awesome App
+
+
 
 
   ## Description of Application
-  This application will generate a README.md file that we include all the information that you provide in the prompt
+  This app will create a README.md file based on user information gained from user input prompts.
+
+
 
 
   ## Table of Contents
-  Table of contents
+  none
+
+
 
 
   ## Installation Instructions
   npm install
  
  
+
+
   ## Usage Instructions
-  follow the prompts
+  Follow the prompts and have the information provided create sections in the README.md file.
+
+
 
 
   ## Licenses Used
   none
 
 
+
+
   ## Contributors
   just me
+
+
 
 
   ## Test Instructions
   none
 
 
+
+
   ## Additional User Questions
-  none
+  https://github.com/fudoggy
+  
+  kevin@gmail.com
+
+  
